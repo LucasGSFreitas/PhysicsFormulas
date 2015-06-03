@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="npS-fa-cqf">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Gi0-sK-i4S">
+            <objects>
+                <viewController id="npS-fa-cqf" customClass="ViewController" customModule="PhysicsFormula" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n3w-wz-Bny"/>
+                        <viewControllerLayoutGuide type="bottom" id="BcR-2F-hUG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JnC-10-1oj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1165747-1280x800-[DesktopNexus.com] (1)" translatesAutoresizingMaskIntoConstraints="NO" id="web-VY-kNB">
+                                <rect key="frame" x="-308" y="-64" width="1280" height="800"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="atom" translatesAutoresizingMaskIntoConstraints="NO" id="V0N-pq-XOl">
+                                <rect key="frame" x="0.0" y="263" width="200" height="200"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbG-Vu-UWQ">
+                                <rect key="frame" x="260" y="438" width="69" height="60"/>
+                                <state key="normal" image="telescope-104">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="opticButton:" destination="npS-fa-cqf" eventType="touchUpInside" id="WfA-3e-wTs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mecânica" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQK-cr-toT">
+                                <rect key="frame" x="77" y="184" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f26-8O-etw">
+                                <rect key="frame" x="83" y="108" width="69" height="60"/>
+                                <state key="normal" image="settings-96">
+                                    <color key="titleColor" red="0.75294125080108643" green="0.94117653369903564" blue="0.93333339691162109" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mechanicButton:" destination="npS-fa-cqf" eventType="touchUpInside" id="iYk-Zv-gVq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIN-m5-wEx">
+                                <rect key="frame" x="298" y="306" width="69" height="60"/>
+                                <state key="normal" image="protect_from_magnetic_field-104">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="electricMagnetism:" destination="npS-fa-cqf" eventType="touchUpInside" id="GcB-kt-qDZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlp-d5-LSv">
+                                <rect key="frame" x="158" y="532" width="69" height="60"/>
+                                <state key="normal" image="temperature-96">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="thermologyButton:" destination="npS-fa-cqf" eventType="touchUpInside" id="XL4-yL-B53"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5J-Z1-OYl">
+                                <rect key="frame" x="242" y="171" width="69" height="60"/>
+                                <state key="normal" image="audio_wave-96">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="waveButton:" destination="npS-fa-cqf" eventType="touchUpInside" id="Mig-l7-Mml"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="MTi-fw-gMG" kind="show" identifier="toFormulaView" id="mqm-Cm-Erq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2GY-ix-cDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="721" y="22"/>
+        </scene>
+        <!--FormulaViewController-->
+        <scene sceneID="oz3-Do-Wfv">
+            <objects>
+                <viewController id="MTi-fw-gMG" userLabel="FormulaViewController" customClass="FormulaViewController" customModule="PhysicsFormula" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="41J-O8-IZF"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Dl-kB-amI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BfH-8g-bWL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lo0-sR-4qN">
+                                <rect key="frame" x="0.0" y="42" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="MTi-fw-gMG" id="80J-Um-Uof"/>
+                                    <outlet property="delegate" destination="MTi-fw-gMG" id="6Db-yD-rju"/>
+                                </connections>
+                            </pickerView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hnH-Yh-OM3">
+                                <rect key="frame" x="0.0" y="9" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="HDs-i5-zLc">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="t9I-JS-ohc">
+                                            <connections>
+                                                <action selector="backToViewController:" destination="MTi-fw-gMG" id="gWJ-o3-5fw"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="viu-XQ-ViP">
+                                <rect key="frame" x="0.0" y="229" width="600" height="371"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="headerCell" rowHeight="59" id="JMj-Jg-tjA" customClass="CustomHeaderCell" customModule="PhysicsFormula" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JMj-Jg-tjA" id="hzq-tU-x4f">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WY3-nu-E8R">
+                                                    <rect key="frame" x="21" y="19" width="571" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="WY3-nu-E8R" secondAttribute="trailing" id="6jP-uX-Mo9"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="WY3-nu-E8R" secondAttribute="bottom" constant="11" id="Z5j-dF-Dct"/>
+                                                <constraint firstItem="WY3-nu-E8R" firstAttribute="leading" secondItem="hzq-tU-x4f" secondAttribute="leadingMargin" constant="13" id="xr9-vf-5Vf"/>
+                                                <constraint firstItem="WY3-nu-E8R" firstAttribute="top" secondItem="hzq-tU-x4f" secondAttribute="topMargin" constant="11" id="ymQ-th-hTs"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="headerLabel" destination="WY3-nu-E8R" id="4uJ-en-1JF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="59" id="l8z-Gm-HGN" customClass="FormulaNameTableViewCell" customModule="PhysicsFormula" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l8z-Gm-HGN" id="wOv-Wd-rMZ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psu-3Z-SGU">
+                                                    <rect key="frame" x="21" y="19" width="571" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="psu-3Z-SGU" secondAttribute="bottom" constant="11" id="0d3-X9-ewE"/>
+                                                <constraint firstItem="psu-3Z-SGU" firstAttribute="top" secondItem="wOv-Wd-rMZ" secondAttribute="topMargin" constant="11" id="SHV-gN-Bct"/>
+                                                <constraint firstItem="psu-3Z-SGU" firstAttribute="leading" secondItem="wOv-Wd-rMZ" secondAttribute="leadingMargin" constant="13" id="cyz-aG-CeK"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="psu-3Z-SGU" secondAttribute="trailing" id="wCu-Qj-uUw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="psu-3Z-SGU" id="Mn8-KF-HiF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="MTi-fw-gMG" id="aiU-Zr-u2S"/>
+                                    <outlet property="delegate" destination="MTi-fw-gMG" id="DTc-cX-BcI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="viu-XQ-ViP" firstAttribute="top" secondItem="lo0-sR-4qN" secondAttribute="bottom" constant="25" id="1zq-G6-lsp"/>
+                            <constraint firstItem="lo0-sR-4qN" firstAttribute="top" secondItem="41J-O8-IZF" secondAttribute="bottom" constant="22" id="869-1F-kaH"/>
+                            <constraint firstItem="8Dl-kB-amI" firstAttribute="top" secondItem="viu-XQ-ViP" secondAttribute="bottom" id="9qv-Sd-3j9"/>
+                            <constraint firstItem="viu-XQ-ViP" firstAttribute="top" secondItem="lo0-sR-4qN" secondAttribute="bottom" constant="25" id="C8o-0k-v9U"/>
+                            <constraint firstItem="viu-XQ-ViP" firstAttribute="leading" secondItem="BfH-8g-bWL" secondAttribute="leading" id="PRt-cZ-yaD"/>
+                            <constraint firstAttribute="trailing" secondItem="lo0-sR-4qN" secondAttribute="trailing" id="g3b-gE-VZ7"/>
+                            <constraint firstAttribute="trailing" secondItem="viu-XQ-ViP" secondAttribute="trailing" id="hDt-rh-pHK"/>
+                            <constraint firstItem="lo0-sR-4qN" firstAttribute="leading" secondItem="BfH-8g-bWL" secondAttribute="leading" id="mqp-UH-2D5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="viu-XQ-ViP" id="UDi-fW-pdK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ysK-Qa-fai" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="721" y="785"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1165747-1280x800-[DesktopNexus.com] (1)" width="1280" height="800"/>
+        <image name="atom" width="400" height="400"/>
+        <image name="audio_wave-96" width="96" height="96"/>
+        <image name="protect_from_magnetic_field-104" width="104" height="104"/>
+        <image name="settings-96" width="96" height="96"/>
+        <image name="telescope-104" width="208" height="208"/>
+        <image name="temperature-96" width="96" height="96"/>
+    </resources>
+</document>

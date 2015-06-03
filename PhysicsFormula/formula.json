@@ -1,0 +1,44 @@
+{
+    "formulas": {
+        "Mecânica": {
+            "Cinemática": {
+                "Velocidade": [
+                               {
+                               "image": "file",
+                               "titulo": "Velocidade Média"
+                               }
+                               ],
+                "Movimento Vertical": [
+                                       {
+                                       "image": "file",
+                                       "titulo": ""
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": ""
+                                       },
+                                       {
+                                       "image": "file",
+                                       "titulo": ""
+                                       }
+                                       ]
+            },
+            "Dinâmica": {
+                "Força Peso": {
+                    "image": "file",
+                    "titulo": "Função horária da velocidade no movimento vertical"
+                }
+            }
+        },
+        "Termologia": {
+            "Termometria": {
+                "Escalas Termométricas": [
+                                          {
+                                          "image": "file",
+                                          "titulo": ""
+                                          }
+                                          ]
+            }
+        }
+    }
+}
